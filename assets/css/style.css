@@ -6,6 +6,7 @@
 }
 
 html {
+    scroll-behavior: smooth;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -93,8 +94,6 @@ html {
 }
 
 /*Main*/
-#main {}
-
 #header {
     position: fixed;
     top: 0;
@@ -205,8 +204,6 @@ html {
     font-size: 15px;
     margin-top: 25px;
 }
-
-#content {}
 
 #content .content-section {
     width: 800px;
