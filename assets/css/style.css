@@ -234,7 +234,7 @@ html {
 
 /*Places*/
 .places-list {
-    margin:32px -8px 48px;
+    margin: 32px -8px 48px;
 }
 
 .place-item {
@@ -285,6 +285,7 @@ html {
 .place-buy-btn:hover {
     color: #000;
     background-color: #ccc;
+    border-color: #fff;
 }
 
 
@@ -313,6 +314,7 @@ html {
     max-width: calc(100% - 32px);
     min-height: 200px;
     position: relative;
+    animation: modalFaceIn ease 0.5s;
 }
 
 .modal-header {
@@ -385,4 +387,16 @@ html {
 
 .modal-footer a {
     color: #2196F3;
+}
+
+@keyframes modalFaceIn {
+    from {
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
