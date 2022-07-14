@@ -423,7 +423,6 @@ html {
 .modal-container {
     background: #fff;
     width: 900px;
-    max-width: calc(100% - 32px);
     min-height: 200px;
     position: relative;
     animation: modalFaceIn ease 0.5s;
@@ -449,7 +448,7 @@ html {
     right: 0;
     top: 0;
     color: #fff;
-    padding: 12px;
+    padding: 16px 12px;
     cursor: pointer;
     opacity: 0.8;
 }

@@ -5,7 +5,9 @@
 
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
-
+    .modal-container {
+        width: 600px;
+    }
 }
 
 /* Mobile */
@@ -51,5 +53,8 @@
     }
     .contact-form {
         margin-top: 16px;
+    }
+    .modal-container {
+        width: calc(100% - 16px);
     }
 }
